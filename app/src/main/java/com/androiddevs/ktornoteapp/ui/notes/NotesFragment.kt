@@ -13,7 +13,8 @@ class NotesFragment: BaseFragment(R.layout.fragment_notes) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         fabAddNote.setOnClickListener {
-            findNavController().navigate(NotesFragmentDirections.actionNotesFragmentToAddEditNoteFragment(""))
+            findNavController().navigate(
+                NotesFragmentDirections.actionNotesFragmentToAddEditNoteFragment(""))
         }
     }
 }
