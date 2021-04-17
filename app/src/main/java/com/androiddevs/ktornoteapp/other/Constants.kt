@@ -4,6 +4,9 @@ object Constants {
 
     const val DATABASE_NAME = "notes_db"
 
+    const val KEY_LOGGED_IN_EMAIL = "KEY_LOGGED_IN_EMAIL"
+    const val KEY_PASSWORD = "KEY_PASSWORD"
+
     const val BASE_URL = "http://192.168.0.102:8001"
 
     const val ENCRYPTED_SHARED_PREF_NAME = "enc_shared_pref"
